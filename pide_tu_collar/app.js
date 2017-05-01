@@ -102,10 +102,10 @@ $(document).ready(function() {
                           type: "POST",
                           data: send,
                           success: function (sreg, status, jqXHR) {
-                              alert(JSON.stringify(sreg));
+                              alert("Se han enviado sus datos con éxito");
                           },
                           error: function (jqXHR, status) {
-                              alert(JSON.stringify(jqXHR));
+                              alert(JSON.stringify(jqXHR)+"Hubo un error en el proceso");
                           }
                       });
                       return false;

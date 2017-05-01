@@ -27,7 +27,7 @@ fieldset {
   font-weight:bold;
 }
 input {
-  display:block;
+  display:inline-block;
 }
 legend {
   display:block;
