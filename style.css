@@ -50,20 +50,20 @@ Use it to make something cool, have fun, and share what you've learned with othe
 1.0 Normalize
 Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 --------------------------------------------------------------*/
-#divverde {
-	width:300px;
-	height:50px;
-	border:1px solid white;
-	text-align:center;
-	margin:auto;
-	padding-top:5px;
-	border-radius:20px;
-	background-color:#31B404;
-	font-family:cursive, sans-serif;
-	cursor:pointer;
-	font-size:1.5rem;
+#panel3 {
+	background-color:#222
+}
+#top-menu {
+	background-color: #222
+
 }
 
+#modificar {
+	background-color:#222
+}
+.panel-content {
+	background-color:#222
+}
 #divverde:hover {
 	background-color: #298A08;
 }
@@ -242,7 +242,7 @@ button:-moz-focusring,
 }
 
 fieldset {
-	border: 1px solid #bbb;
+	border: 1px solid #415553;
 	margin: 0 2px;
 	padding: 0.35em 0.625em 0.75em;
 }
@@ -572,7 +572,7 @@ acronym {
 
 mark,
 ins {
-	background: #eee;
+	background: #2f4e4b;
 	text-decoration: none;
 }
 
@@ -958,7 +958,7 @@ textarea {
 	color: #666;
 	background: #fff;
 	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
-	border: 1px solid #bbb;
+	border: 1px solid #415553;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	display: block;
@@ -987,7 +987,7 @@ textarea:focus {
 }
 
 select {
-	border: 1px solid #bbb;
+	border: 1px solid #415553;
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 	height: 3em;
@@ -1060,7 +1060,7 @@ input[type="reset"].secondary:hover,
 input[type="reset"].secondary:focus,
 input[type="submit"].secondary:hover,
 input[type="submit"].secondary:focus {
-	background: #bbb;
+	background: #415553;
 }
 
 /* Placeholder text color -- selectors need to be separate to work. */
@@ -1091,7 +1091,7 @@ input[type="submit"].secondary:focus {
 --------------------------------------------------------------*/
 
 hr {
-	background-color: #bbb;
+	background-color: #415553;
 	border: 0;
 	height: 1px;
 	margin-bottom: 1.5em;
@@ -1140,7 +1140,7 @@ table {
 }
 
 thead th {
-	border-bottom: 2px solid #bbb;
+	border-bottom: 2px solid #415553;
 	padding-bottom: 0.5em;
 }
 
@@ -1322,12 +1322,13 @@ a:hover .nav-title,
 --------------------------------------------------------------*/
 
 .navigation-top {
-	background: #fff;
+	background: white;
 	border-bottom: 1px solid #eee;
 	border-top: 1px solid #eee;
 	font-size: 16px;
 	font-size: 1rem;
 	position: relative;
+	color:#415553;
 }
 
 .navigation-top .wrap {
@@ -1336,7 +1337,7 @@ a:hover .nav-title,
 }
 
 .navigation-top a {
-	color: #222;
+	color: #415553;;
 	font-weight: 600;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;
@@ -1353,7 +1354,7 @@ a:hover .nav-title,
 }
 
 .main-navigation ul {
-	background: #fff;
+	background: white;
 	list-style: none;
 	margin: 0;
 	padding: 0 1.5em;
@@ -1422,7 +1423,7 @@ a:hover .nav-title,
 	border: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	color: #222;
+	color: #415553;;
 	display: none;
 	font-size: 14px;
 	font-size: 0.875rem;
@@ -2740,7 +2741,7 @@ h2.widget-title {
 .widget.widget_tag_cloud a:focus,
 .wp_widget_tag_cloud a:hover,
 .wp_widget_tag_cloud a:focus {
-	border-color: #bbb;
+	border-color: #415553;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	text-decoration: none;
@@ -3474,7 +3475,7 @@ object {
 
 	.main-navigation ul ul {
 		background: #fff;
-		border: 1px solid #bbb;
+		border: 1px solid #415553;;
 		left: -999em;
 		padding: 0;
 		position: absolute;
@@ -3511,7 +3512,7 @@ object {
 
 	.main-navigation ul li.menu-item-has-children:before,
 	.main-navigation ul li.page_item_has_children:before {
-		border-color: transparent transparent #bbb;
+		border-color: transparent transparent #415553;
 		bottom: 0;
 	}
 

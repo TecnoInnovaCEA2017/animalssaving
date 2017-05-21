@@ -1,7 +1,17 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
+.navbar.navbar-inverse.navbar-static-top{
+  opacity:0.5;
 
+}
+.navbar.navbar-inverse.navbar-static-top:hover{
+  opacity:0.8;
+}
+.container.marketing {
+  margin:auto;
+
+}
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
@@ -136,6 +146,7 @@ a.producto:hover {
   right: 0;
   left: 0;
   z-index: 20;
+
 }
 a.navbar-brand {
   font-size:50px;

@@ -21,7 +21,7 @@ $.ajaxSetup({
             var send = JSON.stringify(objectifyForm($(this).serializeArray()));
             console.log(send);
             $.ajax({
-                url: "http://couchdb.contraslash.com/animal_savings_collares",
+                url: "http://couchdb.contraslash.com/animal_savings_collares/",
                 type: "POST",
                 data: send,
                 success: function (sreg, status, jqXHR) {

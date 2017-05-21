@@ -30,7 +30,7 @@
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
-    <script src="jquery.js"></script>
+    <!--<script src="jquery.js"></script>-->
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -51,24 +51,24 @@
               <!-- Trigger the modal with a button -->
 <img id="logo-fijo"  data-target="#myModal" data-toggle="modal"src="img/logo.png"/>
 
-            <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Animal Saving navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>-->
+                <span class="icon-bar">Inicio</span>
+                <span class="icon-bar">¡Pide tu collar!</span>
+                <span class="icon-bar">¿Encontraste una mascota?</span>
+              </button>
 
               <a id="titulo" class="navbar-brand" href=../index.html>Animal Saving</a>
 
             </div>
               </div>
             </div>
-            <!--<div id="navbar" class="navbar-collapse collapse">
+            <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pide_tu_collar/index.html">Pide tu collar!</a></li>
+                <li><a href="#">¿Encontraste una mascota?</a></li>
+            <!--    <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">Action</a></li>
@@ -100,31 +100,28 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <img class="first-slide" src="http://as00.epimg.net/tikitakas/imagenes/2017/02/06/portada/1486399701_443964_1486400050_noticia_normal.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <a class="producto" href="#h-collar1"<h1>Collar #1</h1></a>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>-->
+
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <img class="second-slide" src="http://img.bekiamascotas.com/articulos/th/52000/52973-q1.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
-              <a class="producto" href="#h-collar2"><h1>Collar #2</h1></a>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="producto" href="#h-collar2">
               <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <img class="third-slide" src="http://www.viajarconperrosygatos.com/wp-content/uploads/2016/04/portada-perros-gatos1920.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <a class="producto" href="#h-collar3 "><h1>Collar #3</h1></a>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <a class="producto" href="#h-collar3 "></a>
+
               <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>-->
             </div>
           </div>
@@ -151,15 +148,20 @@
       <div class="row">
         <div class="col-xs-12">
 
-        <h1><b>Encuentra tu mascota</b></h1>
-        <h4>Ingresa el código de tu collar aquí:</h4>
+        <h1><b>¿Encontraste una mascota?</b></h1>
+        <h4>Ingresa el código del collar aquí:</h4>
         <form>
         <div class="col-xs-5">
           <input class="form-control" type="text" maxlength="4" name="codigo" id="codigo">
-          <input type="submit" value="Enviar">
+          <input type="submit" id="boton" value="Enviar">
           </div>
         </form>
-        <div class="col-lg-4">
+
+        <div class="col-lg-10">
+          <br />
+          <div id="contenido">
+
+          </div>
 
           <!--<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
           <h2>Heading</h2>
@@ -185,39 +187,8 @@
 
       <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 id="h-collar1" class="featurette-heading">Collar #1<br ><span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
 
-      <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7 col-md-push-5">
-          <h2 id="h-collar2" class="featurette-heading">Collar #2 <br ><span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 id="h-collar3" class="featurette-heading">Collar #3 <br ><span class="text-muted"></span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
-        </div>
-      </div>
 
       <hr class="featurette-divider">
 
@@ -262,7 +233,8 @@
     <script src="assets/js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-    <script src="app.js"></script>
+    <script src="app2.js"></script>
+    <!-- <script src="app3.js"></script> -->
 
   </body>
 </html>
