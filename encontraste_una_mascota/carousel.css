@@ -2,18 +2,29 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-
-
-}
-#titulo {
-  color:black;
+.navbar.navbar-inverse.navbar-static-top:hover{
+ opacity:0.8
 }
 .navbar.navbar-inverse.navbar-static-top {
   background-color: #9e9b9a;
   opacity:0.6
 
 }
+#titulo {
+  color:black;
+}
+.container.marketing {
+  margin:auto;
+
+}
+#myCarousel {
+  height:500px;
+}
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
 .navbar-header {
     float: left;
     padding-top: 25px;
@@ -34,7 +45,7 @@ fieldset {
   font-weight:bold;
 }
 input {
-  display:block;
+  display:inline-block;
 }
 legend {
   display:block;
@@ -94,20 +105,21 @@ legend {
 #divcantidad {
   margin-left:100px;
 }
-
+#cantidad {
+  margin-left:145px;
 }
 #collar1, #collar2, #cantidad, #cantidad2 {
   display:inline;
 }
-.btc {
-  width:3rem;
+#btc, #btc2 {
+  width:2em;
+  border:1px solid white;
   border-radius:20%;
   color:white;
   background-color:gray;
   text-align:center;
   display:inline-block;
   cursor:pointer;
-  margin: 25px;
 }
 div.modal-header{
   background-color:#243F35;
@@ -142,6 +154,7 @@ a.producto:hover {
   right: 0;
   left: 0;
   z-index: 20;
+
 }
 a.navbar-brand {
   font-size:50px;

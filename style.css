@@ -53,6 +53,10 @@ Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
 #panel3 {
 	background-color:#222
 }
+#menu-item-17 {
+	height:60px;
+	width:60px;
+}
 #top-menu {
 	background-color: #222
 
@@ -2335,8 +2339,8 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 .social-navigation ul {
 	list-style: none;
-	margin-bottom: 0;
-	margin-left: 0;
+
+	margin-left:10rem;
 }
 
 .social-navigation li {
@@ -3398,7 +3402,7 @@ object {
 	/* Navigation */
 
 	.navigation-top {
-		bottom: 0;
+		top: 0;
 		font-size: 14px;
 		font-size: 0.875rem;
 		left: 0;
@@ -3406,6 +3410,7 @@ object {
 		right: 0;
 		width: 100%;
 		z-index: 3;
+
 	}
 
 	.navigation-top .wrap {
