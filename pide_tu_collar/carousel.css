@@ -9,6 +9,9 @@ body {
 #titulo {
   color:black;
 }
+#navbar{
+  background-color: #222
+}
 .navbar.navbar-inverse.navbar-static-top {
   background-color: #9e9b9a;
   opacity:0.6
